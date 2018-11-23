@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		869F7F8F21A8460A00B6619A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F7F8E21A8460A00B6619A /* AppDelegate.swift */; };
+		869F7F9121A8460A00B6619A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F7F9021A8460A00B6619A /* ViewController.swift */; };
+		869F7F9421A8460A00B6619A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869F7F9221A8460A00B6619A /* Main.storyboard */; };
+		869F7F9621A8460A00B6619A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869F7F9521A8460A00B6619A /* Assets.xcassets */; };
+		869F7F9921A8460A00B6619A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869F7F9721A8460A00B6619A /* LaunchScreen.storyboard */; };
+		869F7FA421A8460A00B6619A /* togglTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F7FA321A8460A00B6619A /* togglTests.swift */; };
+		869F7FAF21A8460B00B6619A /* togglUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F7FAE21A8460A00B6619A /* togglUITests.swift */; };
+		869F7FB421A8460B00B6619A /* toggl WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 869F7FB321A8460B00B6619A /* toggl WatchKit App.app */; };
+		869F7FBA21A8460B00B6619A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869F7FB821A8460B00B6619A /* Interface.storyboard */; };
+		869F7FBC21A8460B00B6619A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869F7FBB21A8460B00B6619A /* Assets.xcassets */; };
+		869F7FC321A8460B00B6619A /* toggl WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 869F7FC221A8460B00B6619A /* toggl WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		869F7FC821A8460B00B6619A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F7FC721A8460B00B6619A /* InterfaceController.swift */; };
+		869F7FCA21A8460B00B6619A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F7FC921A8460B00B6619A /* ExtensionDelegate.swift */; };
+		869F7FCC21A8460B00B6619A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F7FCB21A8460B00B6619A /* NotificationController.swift */; };
+		869F7FCE21A8460B00B6619A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F7FCD21A8460B00B6619A /* ComplicationController.swift */; };
+		869F7FD021A8460C00B6619A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869F7FCF21A8460C00B6619A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		869F7FA021A8460A00B6619A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869F7F8321A8460A00B6619A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869F7F8A21A8460A00B6619A;
+			remoteInfo = toggl;
+		};
+		869F7FAB21A8460A00B6619A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869F7F8321A8460A00B6619A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869F7F8A21A8460A00B6619A;
+			remoteInfo = toggl;
+		};
+		869F7FB521A8460B00B6619A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869F7F8321A8460A00B6619A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869F7FB221A8460B00B6619A;
+			remoteInfo = "toggl WatchKit App";
+		};
+		869F7FC421A8460B00B6619A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 869F7F8321A8460A00B6619A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869F7FC121A8460B00B6619A;
+			remoteInfo = "toggl WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		869F7FD821A8460C00B6619A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				869F7FC321A8460B00B6619A /* toggl WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7FDC21A8460C00B6619A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				869F7FB421A8460B00B6619A /* toggl WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		869F7F8B21A8460A00B6619A /* toggl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toggl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		869F7F8E21A8460A00B6619A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		869F7F9021A8460A00B6619A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		869F7F9321A8460A00B6619A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		869F7F9521A8460A00B6619A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		869F7F9821A8460A00B6619A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		869F7F9A21A8460A00B6619A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869F7F9F21A8460A00B6619A /* togglTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = togglTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		869F7FA321A8460A00B6619A /* togglTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = togglTests.swift; sourceTree = "<group>"; };
+		869F7FA521A8460A00B6619A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869F7FAA21A8460A00B6619A /* togglUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = togglUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		869F7FAE21A8460A00B6619A /* togglUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = togglUITests.swift; sourceTree = "<group>"; };
+		869F7FB021A8460B00B6619A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869F7FB321A8460B00B6619A /* toggl WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toggl WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		869F7FB921A8460B00B6619A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		869F7FBB21A8460B00B6619A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		869F7FBD21A8460B00B6619A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869F7FC221A8460B00B6619A /* toggl WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "toggl WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		869F7FC721A8460B00B6619A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		869F7FC921A8460B00B6619A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		869F7FCB21A8460B00B6619A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		869F7FCD21A8460B00B6619A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		869F7FCF21A8460C00B6619A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		869F7FD121A8460C00B6619A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		869F7FD221A8460C00B6619A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		869F7F8821A8460A00B6619A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7F9C21A8460A00B6619A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7FA721A8460A00B6619A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7FBF21A8460B00B6619A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		869F7F8221A8460A00B6619A = {
+			isa = PBXGroup;
+			children = (
+				869F7F8D21A8460A00B6619A /* toggl */,
+				869F7FA221A8460A00B6619A /* togglTests */,
+				869F7FAD21A8460A00B6619A /* togglUITests */,
+				869F7FB721A8460B00B6619A /* toggl WatchKit App */,
+				869F7FC621A8460B00B6619A /* toggl WatchKit Extension */,
+				869F7F8C21A8460A00B6619A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		869F7F8C21A8460A00B6619A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				869F7F8B21A8460A00B6619A /* toggl.app */,
+				869F7F9F21A8460A00B6619A /* togglTests.xctest */,
+				869F7FAA21A8460A00B6619A /* togglUITests.xctest */,
+				869F7FB321A8460B00B6619A /* toggl WatchKit App.app */,
+				869F7FC221A8460B00B6619A /* toggl WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		869F7F8D21A8460A00B6619A /* toggl */ = {
+			isa = PBXGroup;
+			children = (
+				869F7F8E21A8460A00B6619A /* AppDelegate.swift */,
+				869F7F9021A8460A00B6619A /* ViewController.swift */,
+				869F7F9221A8460A00B6619A /* Main.storyboard */,
+				869F7F9521A8460A00B6619A /* Assets.xcassets */,
+				869F7F9721A8460A00B6619A /* LaunchScreen.storyboard */,
+				869F7F9A21A8460A00B6619A /* Info.plist */,
+			);
+			path = toggl;
+			sourceTree = "<group>";
+		};
+		869F7FA221A8460A00B6619A /* togglTests */ = {
+			isa = PBXGroup;
+			children = (
+				869F7FA321A8460A00B6619A /* togglTests.swift */,
+				869F7FA521A8460A00B6619A /* Info.plist */,
+			);
+			path = togglTests;
+			sourceTree = "<group>";
+		};
+		869F7FAD21A8460A00B6619A /* togglUITests */ = {
+			isa = PBXGroup;
+			children = (
+				869F7FAE21A8460A00B6619A /* togglUITests.swift */,
+				869F7FB021A8460B00B6619A /* Info.plist */,
+			);
+			path = togglUITests;
+			sourceTree = "<group>";
+		};
+		869F7FB721A8460B00B6619A /* toggl WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				869F7FB821A8460B00B6619A /* Interface.storyboard */,
+				869F7FBB21A8460B00B6619A /* Assets.xcassets */,
+				869F7FBD21A8460B00B6619A /* Info.plist */,
+			);
+			path = "toggl WatchKit App";
+			sourceTree = "<group>";
+		};
+		869F7FC621A8460B00B6619A /* toggl WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				869F7FC721A8460B00B6619A /* InterfaceController.swift */,
+				869F7FC921A8460B00B6619A /* ExtensionDelegate.swift */,
+				869F7FCB21A8460B00B6619A /* NotificationController.swift */,
+				869F7FCD21A8460B00B6619A /* ComplicationController.swift */,
+				869F7FCF21A8460C00B6619A /* Assets.xcassets */,
+				869F7FD121A8460C00B6619A /* Info.plist */,
+				869F7FD221A8460C00B6619A /* PushNotificationPayload.apns */,
+			);
+			path = "toggl WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		869F7F8A21A8460A00B6619A /* toggl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869F7FDD21A8460C00B6619A /* Build configuration list for PBXNativeTarget "toggl" */;
+			buildPhases = (
+				869F7F8721A8460A00B6619A /* Sources */,
+				869F7F8821A8460A00B6619A /* Frameworks */,
+				869F7F8921A8460A00B6619A /* Resources */,
+				869F7FDC21A8460C00B6619A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				869F7FB621A8460B00B6619A /* PBXTargetDependency */,
+			);
+			name = toggl;
+			productName = toggl;
+			productReference = 869F7F8B21A8460A00B6619A /* toggl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		869F7F9E21A8460A00B6619A /* togglTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869F7FE021A8460C00B6619A /* Build configuration list for PBXNativeTarget "togglTests" */;
+			buildPhases = (
+				869F7F9B21A8460A00B6619A /* Sources */,
+				869F7F9C21A8460A00B6619A /* Frameworks */,
+				869F7F9D21A8460A00B6619A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				869F7FA121A8460A00B6619A /* PBXTargetDependency */,
+			);
+			name = togglTests;
+			productName = togglTests;
+			productReference = 869F7F9F21A8460A00B6619A /* togglTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		869F7FA921A8460A00B6619A /* togglUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869F7FE321A8460C00B6619A /* Build configuration list for PBXNativeTarget "togglUITests" */;
+			buildPhases = (
+				869F7FA621A8460A00B6619A /* Sources */,
+				869F7FA721A8460A00B6619A /* Frameworks */,
+				869F7FA821A8460A00B6619A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				869F7FAC21A8460A00B6619A /* PBXTargetDependency */,
+			);
+			name = togglUITests;
+			productName = togglUITests;
+			productReference = 869F7FAA21A8460A00B6619A /* togglUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		869F7FB221A8460B00B6619A /* toggl WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869F7FD921A8460C00B6619A /* Build configuration list for PBXNativeTarget "toggl WatchKit App" */;
+			buildPhases = (
+				869F7FB121A8460B00B6619A /* Resources */,
+				869F7FD821A8460C00B6619A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				869F7FC521A8460B00B6619A /* PBXTargetDependency */,
+			);
+			name = "toggl WatchKit App";
+			productName = "toggl WatchKit App";
+			productReference = 869F7FB321A8460B00B6619A /* toggl WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		869F7FC121A8460B00B6619A /* toggl WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869F7FD521A8460C00B6619A /* Build configuration list for PBXNativeTarget "toggl WatchKit Extension" */;
+			buildPhases = (
+				869F7FBE21A8460B00B6619A /* Sources */,
+				869F7FBF21A8460B00B6619A /* Frameworks */,
+				869F7FC021A8460B00B6619A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "toggl WatchKit Extension";
+			productName = "toggl WatchKit Extension";
+			productReference = 869F7FC221A8460B00B6619A /* toggl WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		869F7F8321A8460A00B6619A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ki-Hyoun Kim @ atmina";
+				TargetAttributes = {
+					869F7F8A21A8460A00B6619A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					869F7F9E21A8460A00B6619A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 869F7F8A21A8460A00B6619A;
+					};
+					869F7FA921A8460A00B6619A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 869F7F8A21A8460A00B6619A;
+					};
+					869F7FB221A8460B00B6619A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					869F7FC121A8460B00B6619A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 869F7F8621A8460A00B6619A /* Build configuration list for PBXProject "toggl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 869F7F8221A8460A00B6619A;
+			productRefGroup = 869F7F8C21A8460A00B6619A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				869F7F8A21A8460A00B6619A /* toggl */,
+				869F7F9E21A8460A00B6619A /* togglTests */,
+				869F7FA921A8460A00B6619A /* togglUITests */,
+				869F7FB221A8460B00B6619A /* toggl WatchKit App */,
+				869F7FC121A8460B00B6619A /* toggl WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		869F7F8921A8460A00B6619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869F7F9921A8460A00B6619A /* LaunchScreen.storyboard in Resources */,
+				869F7F9621A8460A00B6619A /* Assets.xcassets in Resources */,
+				869F7F9421A8460A00B6619A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7F9D21A8460A00B6619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7FA821A8460A00B6619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7FB121A8460B00B6619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869F7FBC21A8460B00B6619A /* Assets.xcassets in Resources */,
+				869F7FBA21A8460B00B6619A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7FC021A8460B00B6619A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869F7FD021A8460C00B6619A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		869F7F8721A8460A00B6619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869F7F9121A8460A00B6619A /* ViewController.swift in Sources */,
+				869F7F8F21A8460A00B6619A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7F9B21A8460A00B6619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869F7FA421A8460A00B6619A /* togglTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7FA621A8460A00B6619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869F7FAF21A8460B00B6619A /* togglUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869F7FBE21A8460B00B6619A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869F7FCC21A8460B00B6619A /* NotificationController.swift in Sources */,
+				869F7FCE21A8460B00B6619A /* ComplicationController.swift in Sources */,
+				869F7FCA21A8460B00B6619A /* ExtensionDelegate.swift in Sources */,
+				869F7FC821A8460B00B6619A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		869F7FA121A8460A00B6619A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869F7F8A21A8460A00B6619A /* toggl */;
+			targetProxy = 869F7FA021A8460A00B6619A /* PBXContainerItemProxy */;
+		};
+		869F7FAC21A8460A00B6619A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869F7F8A21A8460A00B6619A /* toggl */;
+			targetProxy = 869F7FAB21A8460A00B6619A /* PBXContainerItemProxy */;
+		};
+		869F7FB621A8460B00B6619A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869F7FB221A8460B00B6619A /* toggl WatchKit App */;
+			targetProxy = 869F7FB521A8460B00B6619A /* PBXContainerItemProxy */;
+		};
+		869F7FC521A8460B00B6619A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 869F7FC121A8460B00B6619A /* toggl WatchKit Extension */;
+			targetProxy = 869F7FC421A8460B00B6619A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		869F7F9221A8460A00B6619A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869F7F9321A8460A00B6619A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		869F7F9721A8460A00B6619A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869F7F9821A8460A00B6619A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		869F7FB821A8460B00B6619A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				869F7FB921A8460B00B6619A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		869F7FD321A8460C00B6619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		869F7FD421A8460C00B6619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		869F7FD621A8460C00B6619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				INFOPLIST_FILE = "toggl WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.toggl.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		869F7FD721A8460C00B6619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				INFOPLIST_FILE = "toggl WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.toggl.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		869F7FDA21A8460C00B6619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				IBSC_MODULE = toggl_WatchKit_Extension;
+				INFOPLIST_FILE = "toggl WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.toggl.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		869F7FDB21A8460C00B6619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				IBSC_MODULE = toggl_WatchKit_Extension;
+				INFOPLIST_FILE = "toggl WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.toggl.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		869F7FDE21A8460C00B6619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				INFOPLIST_FILE = toggl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.toggl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		869F7FDF21A8460C00B6619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				INFOPLIST_FILE = toggl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.toggl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		869F7FE121A8460C00B6619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				INFOPLIST_FILE = togglTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.togglTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toggl.app/toggl";
+			};
+			name = Debug;
+		};
+		869F7FE221A8460C00B6619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				INFOPLIST_FILE = togglTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.togglTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toggl.app/toggl";
+			};
+			name = Release;
+		};
+		869F7FE421A8460C00B6619A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				INFOPLIST_FILE = togglUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.togglUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = toggl;
+			};
+			name = Debug;
+		};
+		869F7FE521A8460C00B6619A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQJW9F639;
+				INFOPLIST_FILE = togglUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kihyoun.togglUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = toggl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		869F7F8621A8460A00B6619A /* Build configuration list for PBXProject "toggl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869F7FD321A8460C00B6619A /* Debug */,
+				869F7FD421A8460C00B6619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869F7FD521A8460C00B6619A /* Build configuration list for PBXNativeTarget "toggl WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869F7FD621A8460C00B6619A /* Debug */,
+				869F7FD721A8460C00B6619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869F7FD921A8460C00B6619A /* Build configuration list for PBXNativeTarget "toggl WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869F7FDA21A8460C00B6619A /* Debug */,
+				869F7FDB21A8460C00B6619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869F7FDD21A8460C00B6619A /* Build configuration list for PBXNativeTarget "toggl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869F7FDE21A8460C00B6619A /* Debug */,
+				869F7FDF21A8460C00B6619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869F7FE021A8460C00B6619A /* Build configuration list for PBXNativeTarget "togglTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869F7FE121A8460C00B6619A /* Debug */,
+				869F7FE221A8460C00B6619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869F7FE321A8460C00B6619A /* Build configuration list for PBXNativeTarget "togglUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869F7FE421A8460C00B6619A /* Debug */,
+				869F7FE521A8460C00B6619A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 869F7F8321A8460A00B6619A /* Project object */;
+}
